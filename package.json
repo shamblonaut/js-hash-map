@@ -1,0 +1,23 @@
+{
+  "name": "js-hash-map",
+  "version": "1.0.0",
+  "description": "Hash Map implementation in JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamblonaut/js-hash-map.git"
+  },
+  "author": "Shamblonaut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shamblonaut/js-hash-map/issues"
+  },
+  "homepage": "https://github.com/shamblonaut/js-hash-map#readme",
+  "dependencies": {
+    "@shamblonaut/js-linked-list": "^1.0.0"
+  }
+}
