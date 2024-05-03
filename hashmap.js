@@ -1,9 +1,9 @@
 import LinkedList from "@shamblonaut/js-linked-list/linkedList.js";
 import Node from "@shamblonaut/js-linked-list/node.js";
 
-export default function createHashMap() {
+export function createHashMap(initialCapacity = 16) {
   let map = [];
-  let capacity = 16;
+  let capacity = initialCapacity;
   let filled = 0;
 
   const LOAD_FACTOR = 0.75;

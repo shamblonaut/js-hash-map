@@ -1,7 +1,7 @@
 import LinkedList from "@shamblonaut/js-linked-list/linkedList.js";
 import Node from "@shamblonaut/js-linked-list/node.js";
 
-export default function createHashSet() {
+export function createHashSet() {
   let hashset = [];
   let capacity = 16;
   let filled = 0;
