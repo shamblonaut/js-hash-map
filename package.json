@@ -1,5 +1,5 @@
 {
-  "name": "js-hash-map",
+  "name": "@shamblonaut/js-hash-map",
   "version": "1.0.0",
   "description": "Hash Map implementation in JS",
   "main": "index.js",
